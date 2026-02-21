@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/daily',
-  assetPrefix: '/daily',
+  /* config options here */
 };
 
 export default nextConfig;
