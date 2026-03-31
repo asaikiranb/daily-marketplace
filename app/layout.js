@@ -1,5 +1,6 @@
 import './globals.css';
 import Header from '@/components/Header';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: 'Husky Helpers — UW Student Marketplace',
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <footer className="site-footer">
           © 2026 Husky Helpers · University of Washington
         </footer>
+        <Analytics />
       </body>
     </html>
   );
